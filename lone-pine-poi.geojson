@@ -1,0 +1,11 @@
+{"type": "FeatureCollection", "features": [
+
+{"type":"Feature",
+  "properties":{"name":"Outpost Camp"},"geometry":{"type":"Point","coordinates":[-118.2584991585,36.570672869]}
+},
+
+{"type":"Feature",
+  "properties":{"name":"Trail Camp"},"geometry":{"type":"Point","coordinates":[-118.2788818516,36.562715673]}
+}
+
+]}
