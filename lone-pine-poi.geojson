@@ -6,6 +6,20 @@
 
 {"type":"Feature",
   "properties":{"name":"Trail Camp"},"geometry":{"type":"Point","coordinates":[-118.2788818516,36.562715673]}
+},
+
+{"type":"Feature",
+  "properties":{"name":"Trail Crest"},"geometry":{"type":"Point","coordinates":[-118.2912015, 36.559102]}
+},
+
+{"type":"Feature",
+  "properties":{"name":"JMT Jct"},"geometry":{"type":"Point","coordinates":[-118.29304, 36.56060]}
+},
+
+{"type":"Feature",
+  "properties":{"name":"CRABTREE"},"geometry":{"type":"Point","coordinates":[-118.34800, 36.56456]}
 }
+
+
 
 ]}
