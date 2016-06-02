@@ -179,8 +179,8 @@ map.on('load', function() {
             */
             var filename = String(new Date().getTime());
             value.textContent = 'mapbox directions ';
-            value.textContent += '\"[' + origin.geometry.coordinates[0] +", " + origin.geometry.coordinates[1] + '\"] ';
-            value.textContent += '\"[' + destination.geometry.coordinates[0] +", " + destination.geometry.coordinates[1] + '\"]';
+            value.textContent += '\"[' + origin.geometry.coordinates[0] + ", " + origin.geometry.coordinates[1] + ']\" ';
+            value.textContent += '\"[' + destination.geometry.coordinates[0] + ", " + destination.geometry.coordinates[1] + ']\"';
             value.textContent += ' --profile mapbox.walking --geojson --output ' + filename + '.geojson'
             value.textContent += '; geojsonio ' + filename + '.geojson'
             console.log(value.textContent);
